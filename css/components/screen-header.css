@@ -13,3 +13,11 @@
   margin-left: 25px;
   position: relative;
 }
+.screen-header__icons {
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.6);
+}
+.screen-header__icons span:hover {
+  cursor: pointer;
+  color: black;
+}
