@@ -1,6 +1,6 @@
 .recommended-friends {
-  margin: 10px 0px;
-  padding: 10px 0px;
+  margin: 25px 0px;
+  padding: 25px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
 }
@@ -83,4 +83,7 @@
 }
 .open-post__heart-count span {
   margin-left: 3px;
+}
+.main-find{
+  height: 100vh;
 }
