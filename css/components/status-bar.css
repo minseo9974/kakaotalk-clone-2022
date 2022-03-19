@@ -1,5 +1,5 @@
 .status-bar {
-  position: fixed;
+  position: sticky;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,4 +24,8 @@
 }
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+.status-bar__chat{
+  background-color: #abc1d1;
+  z-index: 1;
 }

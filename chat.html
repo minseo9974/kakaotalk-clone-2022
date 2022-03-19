@@ -10,7 +10,7 @@
 </head>
 
 <body id="chat-screen">
-    <div class="status-bar">
+    <div class="status-bar status-bar__chat">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fa-solid fa-wifi"></i>
@@ -19,13 +19,13 @@
             <span>18:43</span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
+            <span>100%</span>
             <i class="fa-solid fa-battery-full fa-lg"></i>
             <i class="fa-solid fa-bolt-lightning"></i>
         </div>
     </div>
 
-    <header class="alt-header">
+    <header class="alt-header alt-header__chat">
         <div class="alt-header__column">
             <a href="javascript:history.back();">
                 <i class="fa-solid fa-angle-left fa-2x"></i>
@@ -40,11 +40,59 @@
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Friday, June 15, 2022
+        </div>
 
+        <div class="message-row message-left">
+            <img src="images/han.jpeg" />
+            <div class="message-row__content">
+                <span class="message__author">한소희</span>
+                <div class="message__info">
+                    <span class="message__bubble">공주 치킨.</span>
+                    <span class="message__time">00:20</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own message-right">
+
+            <div class="message-row__content">
+
+                <div class="message__info">
+                    <span class="message__bubble">그건 좀..</span>
+                    <span class="message__time">0:32</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-left">
+            <img src="images/han.jpeg" />
+            <div class="message-row__content">
+                <span class="message__author">한소희</span>
+                <div class="message__info">
+                    <span class="message__bubble">엥 미친거아냐?</span>
+                    <span class="message__time">01:22</span>
+                </div>
+            </div>
+        </div>
     </main>
 
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fa-regular fa-face-grin fa-2x"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
 
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
 
     <script src="https://kit.fontawesome.com/dcd9762096.js" crossorigin="anonymous"></script>
 </body>
